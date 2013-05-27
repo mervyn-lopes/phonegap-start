@@ -40,7 +40,7 @@ var app = {
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
-        var content = document.getElementById('content');
+        var content = parentElement.querySelector('#content');
         
 
         listeningElement.setAttribute('style', 'display:none;');
